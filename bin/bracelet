@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+
+var bracelet = require('../lib/bracelet')
+  , argv = require('optimist').argv;
+  
+bracelet.listen(argv.p || 3000);

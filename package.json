@@ -1,0 +1,20 @@
+{
+  "name": "bracelet",
+  "version": "1.0.0",
+  "preferGlobal": true,
+  "author": "Fredrik Forsmo <fredrik.forsmo@gmail.com>",
+  "description": "Simple JSON test server",
+  "homepage": "https://github.com/frozzare/brack",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frozzare/brack.git"
+  },
+  "bin": {
+    "bracelet": "./bin/bracelet"
+  },
+  "dependencies" : {
+    "express": "3.x.x",
+    "optimist": "0.3.5"
+  },
+  "license": "MIT"
+}

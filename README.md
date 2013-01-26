@@ -17,6 +17,16 @@ A request to `http://localhost:3000/hello/[1,2,3]` will return the following JSO
 }
 ```
 
+A request to `http://localhost:3000/hello/{"a":1}` will return the following JSON.
+
+```javascript
+{
+  "hello": {
+    "a": 1
+  }
+}
+```
+
 A post with JSON to `http://localhost:3000/` (or any other url) will return the JSON you posted.
 
 ```javascript

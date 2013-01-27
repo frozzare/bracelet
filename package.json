@@ -1,6 +1,6 @@
 {
   "name": "bracelet",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "preferGlobal": true,
   "author": "Fredrik Forsmo <fredrik.forsmo@gmail.com>",
   "description": "Simple JSON test server",
